@@ -1,0 +1,529 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Audio Examples</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#codec">Codec Reconstruction</a></li>
+					<li><a href="#tts">TTS Synthesis</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style4">
+				<div class="container">
+					<div class="row">
+						<header>
+							<center><h2>Audio examples for anonymous submission to SLT 2024</h2><center/>
+						</header>
+					</div>
+				</div>
+			</article>
+
+		<!-- Codec Reconstruction -->
+			<article id="codec" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Codec Reconstruction</h2>
+						<p>We compare the reconstructed audio of different codec models after compression.</p>
+						<p>The codecs generalize well to speakers in unseen languages, even though they are trained on only English data.</p>
+					</header>
+
+					<p><h3>English</h3></p>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_ground_truth.png" alt="" /></a>
+									<p>Ground Truth</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_ground_truth.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_encodec.png" alt="" /></a>
+									<p>EnCodec (24kHz) </p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_encodec.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_dac.png" alt="" /></a>
+									<p>Descript Audio Codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_dac.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_audio_rvq.png" alt="" /></a>
+									<p>Audio RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_audio_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_audio_fsq.png" alt="" /></a>
+									<p>Audio FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_audio_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_hifigan.png" alt="" /></a>
+									<p>HiFi-GAN</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_hifigan.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_mel_rvq.png" alt="" /></a>
+									<p>Spectral RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_mel_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_mel_fsq.png" alt="" /></a>
+									<p>Spectral FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_mel_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_english_mel_fsq_multiband.png" alt="" /></a>
+									<p>Spectral multi-band FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_english_mel_fsq_multiband.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<p><h3>Spanish</h3></p>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_ground_truth.png" alt="" /></a>
+									<p>Ground Truth</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_ground_truth.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_encodec.png" alt="" /></a>
+									<p>EnCodec (24 kHz)</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_encodec.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_dac.png" alt="" /></a>
+									<p>Descript Audio Codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_dac.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_audio_rvq.png" alt="" /></a>
+									<p>Audio RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_audio_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_audio_fsq.png" alt="" /></a>
+									<p>Audio FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_audio_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_hifigan.png" alt="" /></a>
+									<p>HiFi-GAN</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_hifigan.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_mel_rvq.png" alt="" /></a>
+									<p>Spectral RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_mel_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_mel_fsq.png" alt="" /></a>
+									<p>Spectral FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_mel_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_spanish_mel_fsq_multiband.png" alt="" /></a>
+									<p>Spectral multi-band FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_spanish_mel_fsq_multiband.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<p><h3>French</h3></p>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_ground_truth.png" alt="" /></a>
+									<p>Ground Truth</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_ground_truth.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_encodec.png" alt="" /></a>
+									<p>EnCodec (24 kHz)</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_encodec.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_dac.png" alt="" /></a>
+									<p>Descript Audio Codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_dac.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_audio_rvq.png" alt="" /></a>
+									<p>Audio RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_audio_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_audio_fsq.png" alt="" /></a>
+									<p>Audio FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_audio_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_hifigan.png" alt="" /></a>
+									<p>HiFi-GAN</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_hifigan.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_mel_rvq.png" alt="" /></a>
+									<p>Spectral RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_mel_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_mel_fsq.png" alt="" /></a>
+									<p>Spectral FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_mel_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/codec/codec_sample_french_mel_fsq_multiband.png" alt="" /></a>
+									<p>Spectral multi-band FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/codec/codec_sample_french_mel_fsq_multiband.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+
+				</div>
+			</article>
+			
+			
+		<!-- TTS -->
+			<article id="tts" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>TTS Synthesis</h2>
+						<p>A comparison of synthesized speech from FastPitch when trained with different codec models. For our best performing codecs, we also provide samples from an autoregressive FastPitch model.</p>
+					</header>
+
+					<p><h3>Example 1</h3></p>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_ground_truth.png" alt="" /></a>
+									<p>Ground Truth</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_ground_truth.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_encodec.png" alt="" /></a>
+									<p>EnCodec (24kHz)</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_encodec.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_dac.png" alt="" /></a>
+									<p>Descript Audio Codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_dac.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_audio_rvq.png" alt="" /></a>
+									<p>Audio RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_audio_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_audio_fsq.png" alt="" /></a>
+									<p>Audio FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_audio_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_hifigan.png" alt="" /></a>
+									<p>HiFi-GAN</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_hifigan.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_mel_rvq.png" alt="" /></a>
+									<p>Spectral RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_mel_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_mel_fsq.png" alt="" /></a>
+									<p>Spectral FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_mel_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_mel_fsq_multiband.png" alt="" /></a>
+									<p>Spectral multi-band FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_mel_fsq_multiband.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_audio_fsq_ar.png" alt="" /></a>
+									<p>Audio FSQ codec <br>(autoregressive)</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_audio_fsq_ar.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_mel_fsq_ar.png" alt="" /></a>
+									<p>Spectral FSQ codec <br>(autoregressive)</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_mel_fsq_ar.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_1_mel_fsq_multiband_ar.png" alt="" /></a>
+									<p>Spectral multi-band FSQ codec <br>(autoregressive)</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_1_mel_fsq_multiband_ar.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<p><h3>Example 2</h3></p>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_ground_truth.png" alt="" /></a>
+									<p>Ground Truth</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_ground_truth.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_encodec.png" alt="" /></a>
+									<p>EnCodec (24kHz)</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_encodec.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_dac.png" alt="" /></a>
+									<p>Descript Audio Codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_dac.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+					<div class="row">
+
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_audio_rvq.png" alt="" /></a>
+									<p>Audio RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_audio_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_audio_fsq.png" alt="" /></a>
+									<p>Audio FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_audio_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_hifigan.png" alt="" /></a>
+									<p>HiFi-GAN</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_hifigan.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_mel_rvq.png" alt="" /></a>
+									<p>Spectral RVQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_mel_rvq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_mel_fsq.png" alt="" /></a>
+									<p>Spectral FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_mel_fsq.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_mel_fsq_multiband.png" alt="" /></a>
+									<p>Spectral multi-band FSQ codec</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_mel_fsq_multiband.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_audio_fsq_ar.png" alt="" /></a>
+									<p>Audio FSQ codec <br>(autoregressive)</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_audio_fsq_ar.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_mel_fsq_ar.png" alt="" /></a>
+									<p>Spectral FSQ codec <br>(autoregressive)</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_mel_fsq_ar.wav'></source></audio>
+								</article>
+							</div>
+							
+							<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a class="image featured"><img src="examples/tts/tts_sample_2_mel_fsq_multiband_ar.png" alt="" /></a>
+									<p>Spectral multi-band FSQ codec <br>(autoregressive)</p>
+									<audio controls="controls" preload="preload"><source src='examples/tts/tts_sample_2_mel_fsq_multiband_ar.wav'></source></audio>
+								</article>
+							</div>
+							</div>
+					<br>
+
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
